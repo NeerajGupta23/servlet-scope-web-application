@@ -1,0 +1,52 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    margin-top: 1.5%;
+    background-color: #3b0070;
+    color: rgb(247, 221, 187);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+div.container {
+    margin-top: 7%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.block {
+    padding: 5%;
+    border: 3px solid red;
+    border-radius: 10px;
+    padding-bottom: 1.5%;
+    margin-top: 5%;
+    background-color: aquamarine;
+}
+
+div.block label {
+    background-color: aquamarine;
+    color: black;
+    font-weight: bolder;
+    position: relative;
+    bottom: 12px;
+    font-size: larger;
+}
+
+div.container div.block a {
+    float: right;
+    background-color: #eaf460;
+    color: black;
+    padding: 2% 2% 1% 2%;
+    border-radius: 10px;
+    border: 3.5px solid rgb(255, 89, 0);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+div.container div.block a:active {
+    background-color: rgb(218, 224, 34);
+    font-size: 18px;
+}
